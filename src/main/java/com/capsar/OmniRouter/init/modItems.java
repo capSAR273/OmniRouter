@@ -15,6 +15,6 @@ public class modItems
 
     public static void init()
     {
-        GameRegistry.registerItem(simplerouter, "Simple Router");
+        GameRegistry.registerItem(simplerouter, "simpleRouter");
     }
 }

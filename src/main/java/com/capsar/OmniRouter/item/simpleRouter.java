@@ -8,9 +8,7 @@ public class simpleRouter extends OmniItem
     public simpleRouter()
     {
         super();
-        this.setUnlocalizedName("Simple Router");
-        this.setMaxStackSize(64);
-        this.bFull3D = true;
+        this.setUnlocalizedName("simpleRouter");
 
     }
 
