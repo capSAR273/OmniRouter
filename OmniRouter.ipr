@@ -189,6 +189,7 @@
         <w>omni</w>
         <w>postinit</w>
         <w>preinit</w>
+        <w>simplerouter</w>
       </words>
     </dictionary>
   </component>
