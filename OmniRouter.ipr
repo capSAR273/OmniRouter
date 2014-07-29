@@ -61,6 +61,15 @@
     <option name="LOCALE" />
     <option name="OPEN_IN_BROWSER" value="true" />
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="adamc">
+      <words>
+        <w>omni</w>
+        <w>postinit</w>
+        <w>preinit</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OmniRouter.iml" filepath="$PROJECT_DIR$/OmniRouter.iml" />

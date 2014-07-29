@@ -19,11 +19,11 @@ public class OmniRouter
     public void preinit(FMLPreInitializationEvent event)
     {
     //init items and blocks
-    
+
     }
     public void init(FMLInitializationEvent event)
     {
-    //init recipies, crafting
+    //init recipes, crafting
 
     }
     public void postinit(FMLPostInitializationEvent event)
