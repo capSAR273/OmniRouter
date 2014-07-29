@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1988f3-ba23-4d9f-98d7-52f0237faf16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/creativetab/CreativeTabOmni.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java" />
-      <change type="DELETED" beforePath="C:\Users\adamc\Minecraft Projects\OmniRouter\decomp\saves\New World\data\Mineshaft.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adamc\Minecraft Projects\OmniRouter\decomp\saves\New World\region\r.-1.-1.mca" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/2014-07-29-1.log.gz" afterPath="$PROJECT_DIR$/decomp/logs/2014-07-29-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/2014-07-29-2.log.gz" afterPath="$PROJECT_DIR$/decomp/logs/2014-07-29-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/2014-07-29-3.log.gz" afterPath="$PROJECT_DIR$/decomp/logs/2014-07-29-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/2014-07-29-4.log.gz" afterPath="$PROJECT_DIR$/decomp/logs/2014-07-29-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/level.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/level.dat_mcr" afterPath="$PROJECT_DIR$/decomp/saves/New World/level.dat_mcr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/level.dat_old" afterPath="$PROJECT_DIR$/decomp/saves/New World/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/decomp/saves/New World/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/decomp/saves/New World/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/session.lock" afterPath="$PROJECT_DIR$/decomp/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/decomp/saves/New World/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.iws" afterPath="$PROJECT_DIR$/OmniRouter.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-1.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-2.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-3.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-junk-earlystartup.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/latest.log" afterPath="$PROJECT_DIR$/decomp/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/decomp/saves/New World/region/r.0.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/OmniRouter/textures/items/simpleRouter.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/OmniRouter/textures/items/simpleRouter.png" />
     </list>
     <ignored path="OmniRouter.iws" />
     <ignored path=".idea/workspace.xml" />
