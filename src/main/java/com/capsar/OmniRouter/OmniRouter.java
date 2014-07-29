@@ -3,6 +3,7 @@ package com.capsar.OmniRouter;
 /**
  * Created by adamc on 7/29/2014.
  */
+import com.capsar.OmniRouter.init.modItems;
 import com.capsar.OmniRouter.proxy.IProxy;
 import com.capsar.OmniRouter.reference.Reference;
 import com.capsar.OmniRouter.configuration.configurationHandler;
@@ -28,6 +29,7 @@ public class OmniRouter
     //init items and blocks
         configurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new configurationHandler());
+        modItems.init();
 
     }
     public void init(FMLInitializationEvent event)
