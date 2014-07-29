@@ -15,12 +15,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/decomp/saves/New World/region/r.-1.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/region/r.0.0.mca" afterPath="$PROJECT_DIR$/decomp/saves/New World/region/r.0.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/session.lock" afterPath="$PROJECT_DIR$/decomp/saves/New World/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/data/villages.dat" afterPath="$PROJECT_DIR$/decomp/saves/New World/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/saves/New World/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/decomp/saves/New World/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.ipr" afterPath="$PROJECT_DIR$/OmniRouter.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.iws" afterPath="$PROJECT_DIR$/OmniRouter.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-1.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-2.log" />
@@ -29,7 +24,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/latest.log" afterPath="$PROJECT_DIR$/decomp/logs/latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/options.txt" afterPath="$PROJECT_DIR$/decomp/options.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java" />
     </list>
     <ignored path="OmniRouter.iws" />
@@ -92,7 +86,7 @@
       <file leaf-file-name="OmniItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="884">
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="884">
               <caret line="37" column="125" selection-start-line="37" selection-start-column="125" selection-end-line="37" selection-end-column="125" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -125,15 +119,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modItems.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="modItems.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48825064" vertical-offset="34" max-vertical-offset="442">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#515#516#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,11 +134,21 @@
       <file leaf-file-name="OmniRouter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="884">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="884">
               <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simpleRouter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5561358" vertical-offset="8" max-vertical-offset="408">
+              <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -769,8 +771,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/creativetab/CreativeTabOmni.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java" />
       </list>
     </option>
   </component>
@@ -1632,24 +1634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="884">
-          <caret line="37" column="125" selection-start-line="37" selection-start-column="125" selection-end-line="37" selection-end-column="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3550914" vertical-offset="0" max-vertical-offset="383">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/creativetab/CreativeTabOmni.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="459">
@@ -1658,6 +1642,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#509#510#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="459">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1672,15 +1666,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/init/modItems.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1189/forgeSrc-1.7.10-10.13.0.1189-sources.jar!/net/minecraft/client/renderer/texture/TextureMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48825064" vertical-offset="34" max-vertical-offset="442">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.62536025" vertical-offset="1483" max-vertical-offset="6987">
+          <caret line="131" column="17" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1189/forgeSrc-1.7.10-10.13.0.1189-sources.jar!/net/minecraft/client/resources/SimpleReloadableResourceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3314121" vertical-offset="684" max-vertical-offset="1921">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/OmniItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="884">
+          <caret line="37" column="125" selection-start-line="37" selection-start-column="125" selection-end-line="37" selection-end-column="125" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/item/simpleRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5561358" vertical-offset="8" max-vertical-offset="408">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
