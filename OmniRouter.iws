@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb1988f3-ba23-4d9f-98d7-52f0237faf16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/proxy/IProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/proxy/clientProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/proxy/commonProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/configuration/configurationHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/proxy/serverProxy.java" />
-      <change type="DELETED" beforePath="C:\Users\adamc\Minecraft Projects\OmniRouter\src\main\java\com\capsar\OmniRouter\IProxy\ClientProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adamc\Minecraft Projects\OmniRouter\src\main\java\com\capsar\OmniRouter\IProxy\CommonProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adamc\Minecraft Projects\OmniRouter\src\main\java\com\capsar\OmniRouter\IProxy\IProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\adamc\Minecraft Projects\OmniRouter\src\main\java\com\capsar\OmniRouter\IProxy\ServerProxy.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.ipr" afterPath="$PROJECT_DIR$/OmniRouter.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.iws" afterPath="$PROJECT_DIR$/OmniRouter.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/reference/Reference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/configuration/configurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/configuration/configurationHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-1.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-1.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-2.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-2.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-3.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-3.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-client-latest.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-client-latest.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/fml-junk-earlystartup.log" afterPath="$PROJECT_DIR$/decomp/logs/fml-junk-earlystartup.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/decomp/logs/latest.log" afterPath="$PROJECT_DIR$/decomp/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" />
     </list>
     <ignored path="OmniRouter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,9 +70,11 @@
       <file leaf-file-name="OmniRouter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
-              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="816">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +92,11 @@
       <file leaf-file-name="configurationHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/configuration/configurationHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1486486" vertical-offset="51" max-vertical-offset="646">
-              <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-              <folding />
+            <state vertical-scroll-proportion="0.9081081" vertical-offset="378" max-vertical-offset="833">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1219,7 +1213,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1235,7 +1231,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1251,7 +1249,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1259,7 +1259,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="697">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,14 +1394,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="816">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/reference/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="374">
@@ -1432,11 +1426,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="816">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1189/forgeSrc-1.7.10-10.13.0.1189-sources.jar!/net/minecraftforge/common/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1486487" vertical-offset="965" max-vertical-offset="28237">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/configuration/configurationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1486486" vertical-offset="51" max-vertical-offset="646">
-          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-          <folding />
+        <state vertical-scroll-proportion="0.9081081" vertical-offset="378" max-vertical-offset="833">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

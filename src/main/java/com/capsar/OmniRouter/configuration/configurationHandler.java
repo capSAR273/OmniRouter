@@ -1,33 +1,43 @@
 package com.capsar.OmniRouter.configuration;
 
+import com.capsar.OmniRouter.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
+
 import java.io.File;
 
-/**
- * Created by adamc on 7/29/2014.
- */
 public class configurationHandler
 {
-    public static void init(File configFile) {
-        //create the configuration object from the configuration file
-        net.minecraftforge.common.config.Configuration configuration = new Configuration();
-        boolean configValue = false;
-        try
-        {
-            //load the config file
-            configuration.load();
-            //read in properties from the config file
-            configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is an example config value").getBoolean(true);
-        } catch (Exception e)
-        {
-            //log the exception
-        } finally
-        {
-            //save the config file
-            configuration.save();
-        }
+    public static Configuration configuration;
+    public static boolean testValue = false;
 
-        System.out.println("Config Test: "+ configValue);
+    public static void init(File configFile)
+    {
+        // Create the configuration object from the given configuration file
+        if (configuration == null)
+        {
+            configuration = new Configuration(configFile);
+            loadConfiguration();
+        }
     }
 
+    private static void loadConfiguration()
+    {
+        testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example configuration value");
+
+        if (configuration.hasChanged())
+        {
+            configuration.save();
+        }
+    }
+
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
+    {
+        if (event.modID.equalsIgnoreCase(Reference.MOD_ID))
+        {
+            loadConfiguration();
+        }
+    }
 }
