@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb1988f3-ba23-4d9f-98d7-52f0237faf16" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/capsar/OmniRouter/OmniRouter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.iml" afterPath="$PROJECT_DIR$/OmniRouter.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.ipr" afterPath="$PROJECT_DIR$/OmniRouter.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OmniRouter.iws" afterPath="$PROJECT_DIR$/OmniRouter.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-    </list>
+    <list default="true" id="cb1988f3-ba23-4d9f-98d7-52f0237faf16" name="Default" comment="" />
     <ignored path="OmniRouter.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
