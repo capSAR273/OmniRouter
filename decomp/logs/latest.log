@@ -71,3 +71,27 @@ java.io.FileNotFoundException: omnirouter:textures/items/simpleRouter.png
 [16:51:55] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [16:51:55] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
 [16:51:56] [Sound Library Loader/INFO]: Sound engine started
+[16:52:13] [Client thread/INFO]: Deleting level New World
+[16:52:13] [Client thread/INFO]: Attempt 1...
+[16:52:19] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:52:19] [Server thread/INFO]: Generating keypair
+[16:52:19] [Server thread/INFO]: Converting map!
+[16:52:19] [Server thread/INFO]: Scanning folders...
+[16:52:19] [Server thread/INFO]: Total conversion count is 0
+[16:52:21] [Server thread/INFO]: Preparing start region for level 0
+[16:52:22] [Server thread/INFO]: Changing view distance to 3, from 10
+[16:52:23] [Server thread/INFO]: ForgeDevName[local:E:d213c7dc] logged in with entity id 29 at (-480.5, 4.0, -841.5)
+[16:52:23] [Server thread/INFO]: ForgeDevName joined the game
+[16:52:25] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
+[16:52:25] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
+[16:52:35] [Server thread/INFO]: Saving and pausing game...
+[16:52:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:52:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:52:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:52:35] [Server thread/INFO]: Stopping server
+[16:52:35] [Server thread/INFO]: Saving players
+[16:52:35] [Server thread/INFO]: Saving worlds
+[16:52:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:52:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:52:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:52:37] [Client thread/INFO]: Stopping!
