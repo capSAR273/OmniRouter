@@ -32,7 +32,6 @@ public class configurationHandler
         }
     }
 
-    @SubscribeEvent
     public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
     {
         if (event.modID.equalsIgnoreCase(Reference.MOD_ID))

@@ -6,13 +6,14 @@ package com.capsar.OmniRouter;
 import com.capsar.OmniRouter.proxy.IProxy;
 import com.capsar.OmniRouter.reference.Reference;
 import com.capsar.OmniRouter.configuration.configurationHandler;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.MOD_NAME)
+@Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.MOD_NAME, guiFactory = Reference.GUI_FACTORY)
 public class OmniRouter
 {
     @Mod.Instance(Reference.MOD_ID)
@@ -25,7 +26,8 @@ public class OmniRouter
     public void preinit(FMLPreInitializationEvent event)
     {
     //init items and blocks
-    configurationHandler.init(event.getSuggestedConfigurationFile());
+        configurationHandler.init(event.getSuggestedConfigurationFile());
+        FMLCommonHandler.instance().bus().register(new configurationHandler());
 
     }
     public void init(FMLInitializationEvent event)
