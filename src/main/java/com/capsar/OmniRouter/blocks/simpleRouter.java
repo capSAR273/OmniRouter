@@ -1,4 +1,4 @@
-package com.capsar.OmniRouter.item;
+package com.capsar.OmniRouter.blocks;
 
 import com.capsar.OmniRouter.creativetab.CreativeTabOmni;
 import com.capsar.OmniRouter.reference.Reference;
@@ -20,7 +20,7 @@ public class simpleRouter extends Block
         //this.getUnlocalizedName("simpleRouter");
         //this.getTextureName(Reference.MOD_ID + ":" + "simpleRouter");
         this.setCreativeTab(CreativeTabOmni.OmniRouter);
-
+        this.setBlockName("Simple Router");
     }
 
     @Override
