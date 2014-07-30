@@ -1,9 +1,9 @@
 package com.capsar.OmniRouter.init;
 
-import com.capsar.OmniRouter.item.OmniItem;
 import com.capsar.OmniRouter.item.simpleRouter;
 import com.capsar.OmniRouter.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
 
 /**
  * Created by adamc on 7/29/2014.
@@ -11,11 +11,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class modItems
 {
-    public static final OmniItem simplerouter = new simpleRouter();
+    public static final simpleRouter simplerouter = new simpleRouter();
 
     public static void init()
     {
-        GameRegistry.registerItem(simplerouter, "simpleRouter");
+        GameRegistry.registerItem(Item.getItemFromBlock(simplerouter), "simpleRouter");
 
     }
 }
