@@ -1,18 +1,16 @@
+[
 {
-"modid": "OmniRouter",
-"name": "Omni Router",
-"description": "Transmit RF, EU, MJ, Items, and even Liquids through the air to your machines. Features a convenient GUI to manage each machine's I/O. Difficult to make, but worth it in the end! No longer will you have to tear up your pipe systems, this mod solves them all.",
-"version": "1.7.10-0.1",
-"credits": "Created by capSAR, credit to Pahimar for his tutorials on basic modding :)",
-"logoFile": "",
-"mcversion": "1.7.10",
-"url": "http://www.mod-buildcraft.com/",
-"updateUrl": "",
-"authors": [ "capSAR" ],
-"parent":"",
-"screenshots": [],
-"dependencies":
-"mod_MinecraftForge"
-]
+  "modid": "OmniRouter",
+  "name": "Omni Router",
+  "description": "Transmit RF, EU, MJ, Items, and even Liquids through the air to your machines. Features a convenient GUI to manage each machine's I/O. Difficult to make, but worth it in the end! No longer will you have to tear up your pipe systems, this mod solves them all.",
+  "version": "1.7.10-0.1",
+  "mcversion": "1.7.10",
+  "url": "https://github.com/capSAR273/OmniRouter",
+  "updateUrl": "",
+  "authorList": ["capSAR"],
+  "credits": "Created by capSAR, credit to Pahimar for his tutorials on basic modding :)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
 }
 ]
