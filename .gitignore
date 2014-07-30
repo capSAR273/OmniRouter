@@ -1,0 +1,15 @@
+/.gradle/*
+/build/*
+/eclipse/*
+/decomp/*
+/out/*
+/asm/*
+/bin/*
+*.psd
+*.iml
+*.ipr
+*.iws
+*.psd
+
+*.classpath
+*.project
