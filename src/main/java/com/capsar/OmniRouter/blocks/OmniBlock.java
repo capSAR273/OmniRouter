@@ -1,6 +1,7 @@
 package com.capsar.OmniRouter.blocks;
 
 import com.capsar.OmniRouter.OmniRouter;
+import com.capsar.OmniRouter.creativetab.CreativeTabOmni;
 import com.capsar.OmniRouter.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -17,23 +18,21 @@ public class OmniBlock extends Block
     public OmniBlock(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabOmni.OmniRouter);
     }
+
     public OmniBlock()
     {
         this(Material.rock);
     }
+
     @Override
     public String getUnlocalizedName()
     {
         return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
-    public String getUnlocalizedName(ItemStack itemStack)
-    {
-        return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-        //tile.modid:blockname.name
-    }
-
+    @Override
     @SideOnly(Side.CLIENT)
     public void registerBlockIcons(IIconRegister iconRegister)
     {

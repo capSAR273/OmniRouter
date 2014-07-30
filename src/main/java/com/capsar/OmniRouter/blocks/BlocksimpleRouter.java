@@ -1,7 +1,9 @@
 package com.capsar.OmniRouter.blocks;
 
+import com.capsar.OmniRouter.OmniRouter;
 import com.capsar.OmniRouter.creativetab.CreativeTabOmni;
 import com.capsar.OmniRouter.blocks.OmniBlock;
+import com.capsar.OmniRouter.reference.Reference;
 import net.minecraft.block.material.Material;
 
 /**
@@ -13,7 +15,8 @@ public class BlocksimpleRouter extends OmniBlock
     {
         super();
         this.setCreativeTab(CreativeTabOmni.OmniRouter);
-        this.setBlockName("simplerouter");
+        this.setBlockName("simpleRouter");
+        this.setBlockTextureName(Reference.MOD_ID + ":simpleRouter");
     }
 
 }

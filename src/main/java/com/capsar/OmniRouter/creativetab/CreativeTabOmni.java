@@ -15,7 +15,7 @@ public class CreativeTabOmni
         @Override
         public Item getTabIconItem()
         {
-            return Item.getItemFromBlock(modItems.SIMPLEROUTER);
+            return Item.getItemFromBlock(modItems.blocksimpleRouter);
         }
     };
 }
