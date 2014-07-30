@@ -10,7 +10,7 @@ import net.minecraft.item.Item;
 
 public class CreativeTabOmni
 {
-    public static final CreativeTabs LMRB_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase())
+    public static final CreativeTabs OmniRouter = new CreativeTabs(Reference.MOD_ID.toLowerCase())
     {
         @Override
         public Item getTabIconItem()

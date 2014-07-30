@@ -16,7 +16,7 @@ public class OmniItem extends Item
         public OmniItem()
     {
         super();
-        this.setCreativeTab(CreativeTabOmni.LMRB_TAB);
+        this.setCreativeTab(CreativeTabOmni.OmniRouter);
     }
 
     @Override
@@ -42,5 +42,6 @@ public class OmniItem extends Item
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+
 
 }
