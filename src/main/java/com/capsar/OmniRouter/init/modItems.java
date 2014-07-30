@@ -10,11 +10,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class modItems
 {
-    public static final BlocksimpleRouter SIMPLEROUTER = new BlocksimpleRouter();
+    public static final BlocksimpleRouter blocksimpleRouter = new BlocksimpleRouter();
 
     public static void init()
     {
-        GameRegistry.registerBlock(SIMPLEROUTER, "simplerouter");
+        GameRegistry.registerBlock(blocksimpleRouter, "simplerouter");
 
     }
 }
