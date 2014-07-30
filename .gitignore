@@ -12,4 +12,12 @@
 *.psd
 
 *.classpath
+<<<<<<< HEAD
 *.project
+=======
+*.project
+OmniRouter.iml
+OmniRouter.ipr
+OmniRouter.iws
+OmniRouter.iws
+>>>>>>> 6b1124b7a1108547a09bc5a097876cd1127e596c
