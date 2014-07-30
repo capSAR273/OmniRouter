@@ -3,7 +3,7 @@ package com.capsar.OmniRouter.creativetab;
 /**
  * Created by adamc on 7/29/2014.
  */
-import com.capsar.OmniRouter.init.modItems;
+import com.capsar.OmniRouter.init.ModBlocks;
 import com.capsar.OmniRouter.reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -15,7 +15,7 @@ public class CreativeTabOmni
         @Override
         public Item getTabIconItem()
         {
-            return Item.getItemFromBlock(modItems.blocksimpleRouter);
+            return Item.getItemFromBlock(ModBlocks.blocksimpleRouter);
         }
     };
 }

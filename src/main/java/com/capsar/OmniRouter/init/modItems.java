@@ -8,13 +8,11 @@ import cpw.mods.fml.common.registry.GameRegistry;
  * Created by adamc on 7/29/2014.
  */
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
-public class modItems
+public class ModItems
 {
-    public static final BlocksimpleRouter blocksimpleRouter = new BlocksimpleRouter();
 
     public static void init()
     {
-        GameRegistry.registerBlock(blocksimpleRouter, "simplerouter");
 
     }
 }
