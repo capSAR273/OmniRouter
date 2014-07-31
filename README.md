@@ -1,4 +1,4 @@
-OmniRouter - MOVED
+OmniRouter - On Hold for Now
 ==========
 
-Moved to the new repo, fresh start.
+Must obtain more skill in Java before continuing.
