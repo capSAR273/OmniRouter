@@ -1,8 +1,11 @@
 package com.capsar.OmniRouter.items;
 
 import com.capsar.OmniRouter.Reference;
+import com.capsar.OmniRouter.blocks.BlockRouter;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.IRecipe;
 
 /**
  * Created by adamc on 7/29/2014.

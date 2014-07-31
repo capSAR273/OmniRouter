@@ -1,18 +1,24 @@
 package com.capsar.OmniRouter;
 
 import com.capsar.OmniRouter.blocks.BlockRegistry;
+import com.capsar.OmniRouter.blocks.BlockRouter;
 import com.capsar.OmniRouter.client.gui.CreativeTabOmni;
 import com.capsar.OmniRouter.items.ItemRegistry;
+import com.capsar.OmniRouter.items.Recipes;
 import com.capsar.OmniRouter.proxy.commonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import sun.rmi.log.LogHandler;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.MOD_NAME, guiFactory = Reference.GUI_FACTORY)
 public class OmniRouter
@@ -40,7 +46,7 @@ public class OmniRouter
     }
     public void init(FMLInitializationEvent event)
     {
-    //init recipes, crafting
+        Recipes.init();
 
     }
     public void postinit(FMLPostInitializationEvent event)
