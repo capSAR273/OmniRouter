@@ -1,7 +1,8 @@
 package com.capsar.OmniRouter.proxy;
 
 /**
- * Created by adamc on 7/29/2014.
+ * Created by Nick on 7/30/14.
  */
-public class clientProxy extends commonProxy {
+public class ClientProxy extends CommonProxy {
+
 }

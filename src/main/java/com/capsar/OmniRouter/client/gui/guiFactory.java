@@ -9,7 +9,7 @@ import net.minecraft.client.gui.GuiScreen;
 
 import java.util.Set;
 
-public class guiFactory implements IModGuiFactory
+public class GuiFactory implements IModGuiFactory
 {
     @Override
     public void initialize(Minecraft minecraftInstance)
@@ -20,7 +20,7 @@ public class guiFactory implements IModGuiFactory
     @Override
     public Class<? extends GuiScreen> mainConfigGuiClass()
     {
-        return modGuiConfig.class;
+        return OmniGuiConfig.class;
     }
 
     @Override

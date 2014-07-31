@@ -1,6 +1,6 @@
 [
 {
-  "modid": "OmniRouter",
+  "modid": "omnirouter",
   "name": "Omni Router",
   "description": "Transmit RF, EU, MJ, Items, and even Liquids through the air to your machines. Features a convenient GUI to manage each machine's I/O. Difficult to make, but worth it in the end! No longer will you have to tear up your pipe systems, this mod solves them all.",
   "version": "1.7.10-0.1",
