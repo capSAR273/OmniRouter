@@ -14,9 +14,6 @@ import net.minecraft.util.IIcon;
 
 import java.util.List;
 
-/**
- * Created by adamc on 7/29/2014.
- */
 public class BlockRouter extends Block
 {
 	public IIcon[] icon = new IIcon[3];

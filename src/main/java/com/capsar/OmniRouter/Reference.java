@@ -1,8 +1,5 @@
 package com.capsar.OmniRouter;
 
-/**
- * Created by adamc on 7/29/2014.
- */
 public class Reference
 {
     public static final String MOD_ID = "omnirouter";

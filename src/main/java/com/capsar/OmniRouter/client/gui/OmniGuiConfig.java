@@ -1,8 +1,5 @@
 package com.capsar.OmniRouter.client.gui;
 
-/**
- * Created by adamc on 7/29/2014.
- */
 import com.capsar.OmniRouter.OmniRouter;
 import com.capsar.OmniRouter.Reference;
 import cpw.mods.fml.client.config.GuiConfig;

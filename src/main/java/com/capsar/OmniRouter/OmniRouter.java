@@ -1,9 +1,5 @@
 package com.capsar.OmniRouter;
 
-/**
- * Created by adamc on 7/29/2014.
- */
-
 import com.capsar.OmniRouter.blocks.BlockRegistry;
 import com.capsar.OmniRouter.client.gui.CreativeTabOmni;
 import com.capsar.OmniRouter.items.ItemRegistry;

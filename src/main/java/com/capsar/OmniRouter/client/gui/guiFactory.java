@@ -1,8 +1,5 @@
 package com.capsar.OmniRouter.client.gui;
 
-/**
- * Created by adamc on 7/29/2014.
- */
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;

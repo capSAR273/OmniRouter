@@ -1,9 +1,5 @@
 package com.capsar.OmniRouter.client.gui;
 
-/**
- * Created by adamc on 7/29/2014.
- */
-
 import com.capsar.OmniRouter.items.ItemRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
