@@ -3,7 +3,7 @@ package com.capsar.OmniRouter;
 import com.capsar.OmniRouter.blocks.BlockRegistry;
 import com.capsar.OmniRouter.client.gui.CreativeTabOmni;
 import com.capsar.OmniRouter.items.ItemRegistry;
-import com.capsar.OmniRouter.proxy.CommonProxy;
+import com.capsar.OmniRouter.proxy.commonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
@@ -25,7 +25,7 @@ public class OmniRouter
 	public static Logger logger = LogManager.getLogger(Reference.MOD_NAME);
 
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
-	public static CommonProxy proxy;
+	public static commonProxy proxy;
 
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event)
