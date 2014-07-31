@@ -10,7 +10,7 @@ public class guiFactory implements IModGuiFactory
 {
     @Override
     public void initialize(Minecraft minecraftInstance)
-    {s
+    {
 
     }
 
