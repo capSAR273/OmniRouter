@@ -1,0 +1,14 @@
+#Creative Tab
+itemGroup.omnirouter.creativeTab=OmniRouter
+
+#Blocks
+tile.omnirouter.router.simple.name=Basic Router
+tile.omnirouter.router.intermediate.name=Intermediate Router
+tile.omnirouter.router.advanced.name=Advanced Router
+
+#Items
+item.omnirouter.linker.name=Linker
+item.omnirouter.upgrade.range.name=Range Upgrade
+item.omnirouter.upgrade.range.plus.name=Range+ Upgrade
+item.omnirouter.upgrade.speed.name=Speed Upgrade
+item.omnirouter.upgrade.efficiency.name=Efficiency Upgrade
