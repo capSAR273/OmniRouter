@@ -37,6 +37,11 @@ public class ItemBlockRouter extends ItemBlock
 				name = "advanced";
 				break;
 			}
+            case 3:
+            {
+                name = "omni";
+                break;
+            }
 			default:
 				name = "nothing";
 		}

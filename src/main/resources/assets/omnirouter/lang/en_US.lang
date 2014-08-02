@@ -5,6 +5,7 @@ itemGroup.omnirouter.creativeTab=OmniRouter
 tile.omnirouter.router.simple.name=Basic Router
 tile.omnirouter.router.intermediate.name=Intermediate Router
 tile.omnirouter.router.advanced.name=Advanced Router
+tile.omnirouter.router.omni.name=The Omni Router
 
 #Items
 item.omnirouter.linker.name=Linker

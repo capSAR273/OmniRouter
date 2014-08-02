@@ -17,7 +17,7 @@ import java.util.List;
 
 public class BlockRouter extends Block
 {
-	public IIcon[] icon = new IIcon[3];
+	public IIcon[] icon = new IIcon[4];
 
     public BlockRouter()
     {
@@ -35,6 +35,7 @@ public class BlockRouter extends Block
 		this.icon[0] = ir.registerIcon(Reference.MOD_ID + ":router_simple");
 		this.icon[1] = ir.registerIcon(Reference.MOD_ID + ":router_intermediate");
 		this.icon[2] = ir.registerIcon(Reference.MOD_ID + ":router_advanced");
+        this.icon[3] = ir.registerIcon(Reference.MOD_ID + ":router_omni");
 	}
 
 	@Override
@@ -49,7 +50,7 @@ public class BlockRouter extends Block
 	@SideOnly(Side.CLIENT)
 	public void getSubBlocks(Item id, CreativeTabs tab, List list)
 	{
-		for (int i = 0; i < 3; i++)
+		for (int i = 0; i < 4; i++)
 		{
 			list.add(new ItemStack(id, 1, i));
 		}
