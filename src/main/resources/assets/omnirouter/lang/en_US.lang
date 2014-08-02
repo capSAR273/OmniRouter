@@ -13,3 +13,8 @@ item.omnirouter.upgrade.range.name=Range Upgrade
 item.omnirouter.upgrade.range.plus.name=Range+ Upgrade
 item.omnirouter.upgrade.speed.name=Speed Upgrade
 item.omnirouter.upgrade.efficiency.name=Efficiency Upgrade
+
+#Config
+info.omnirouter.config.title=OmniRouter Configuration
+info.omnirouter.config.section.general=General
+info.omnirouter.config.section.general.tooltip=General options.

@@ -1,24 +1,19 @@
 package com.capsar.OmniRouter;
 
 import com.capsar.OmniRouter.blocks.BlockRegistry;
-import com.capsar.OmniRouter.blocks.BlockRouter;
 import com.capsar.OmniRouter.client.gui.CreativeTabOmni;
 import com.capsar.OmniRouter.items.ItemRegistry;
 import com.capsar.OmniRouter.items.Recipes;
-import com.capsar.OmniRouter.proxy.commonProxy;
+import com.capsar.OmniRouter.proxy.CommonProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.config.Configuration;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import sun.rmi.log.LogHandler;
 
 @Mod(modid = Reference.MOD_ID, version = Reference.VERSION, name = Reference.MOD_NAME, guiFactory = Reference.GUI_FACTORY)
 public class OmniRouter
@@ -31,7 +26,7 @@ public class OmniRouter
 	public static Logger logger = LogManager.getLogger(Reference.MOD_NAME);
 
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.COMMON_PROXY)
-	public static commonProxy proxy;
+	public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void preinit(FMLPreInitializationEvent event)

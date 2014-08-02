@@ -9,7 +9,7 @@ public class ConfigHandler
 	public static Configuration config;
 
 	//sections to add to the config
-	public static String exampleSection = "Example Section";
+	public static String general = "General";
 
 	//options in the config
 	public static boolean exampleOption;
@@ -18,9 +18,9 @@ public class ConfigHandler
 	{
 		config.load();
 
-		config.addCustomCategoryComment(exampleSection, "TEST SECTION PLEASE IGNORE");
+		config.addCustomCategoryComment(general, "TEST SECTION PLEASE IGNORE");
 
-		exampleOption = config.get(exampleSection, "exampleOption", true, "Description of option goes here.").getBoolean(exampleOption);
+		exampleOption = config.get(general, "exampleOption", true, "Description of option goes here.").getBoolean(exampleOption);
 
 		if(config.hasChanged()) { config.save(); }
 	}
